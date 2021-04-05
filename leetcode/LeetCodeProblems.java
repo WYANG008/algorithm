@@ -17,6 +17,8 @@ import tree.BinaryTreeZigzagLevelOrderTraversal;
 import coding.StringCompression;
 import matrix.ReconstructA2RowBinaryMatrix;
 import dynamicprogramming.MaximalSquare;
+import tree.InvertBinaryTree;
+import tree.FlatternBinaryTreeToLinkedList;
 
 public enum LeetCodeProblems {
     MergeSortedArray(88, new MergeSortedArray()), // bytedance
@@ -26,10 +28,10 @@ public enum LeetCodeProblems {
     CombinationSum(39, new CombinationSum()) , //bytedance
     LongestSubstringWithoutRepeatingCharacters(3, new LongestSubstringWithoutRepeatingCharacters()) , //bytedance
     RemoveNthNodeFromEndOfList(19, new RemoveNthNodeFromEndOfList()), //bytedance
-    HammingDistance(461, new HammingDistance()), // bytedance  -> checked
+    HammingDistance(461, new HammingDistance()), // bytedance
     MaxAreaOfIsland(695, new MaxAreaOfIsland()), // bytedance
     SearchInRotatedSortedArray(33, new SearchInRotatedSortedArray()), // bytedance
-    ImplementQueueUsingStacks(232, new ImplementQueueUsingStacks()), // bytedance
+    ImplementQueueUsingStacks(232, new ImplementQueueUsingStacks()), // bytedance checked
     MedianOfTwoSortedArrays(4, new MedianOfTwoSortedArrays()),
     RotateArray(189, new RotateArray()), //bytedance
     ClimbingStairs(70, new ClimbingStairs()), // bytedance
@@ -38,6 +40,8 @@ public enum LeetCodeProblems {
     StringCompression(443, new StringCompression()), // bytedance
     ReconstructA2RowBinaryMatrix(1253, new ReconstructA2RowBinaryMatrix()),
     MaximalSquare(221, new MaximalSquare()), //bytedance
+    InvertBinaryTree(226, new InvertBinaryTree()),
+    FlatternBinaryTreeToLinkedList(114, new FlatternBinaryTreeToLinkedList())
     ;
 
     // 统计数组里unique平方数量的个数: https://www.cnblogs.com/xudong-bupt/p/4002765.html
